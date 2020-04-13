@@ -9,69 +9,28 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        textView.htmlText="<table border = \"1\">" +
-                "<tr>" +
-                "<th>Firstname</th>" +
-                "<th>Lastname</th> " +
-                "<th>Age</th>" +
-                "</tr>" +
-                "<tr>" +
-                "<td>Jill</td>" +
-                "<td>Smith</td>" +
-                "<td>50</td>" +
-                "</tr>" +
-                "<tr>" +
-                "<td>Eve</td>" +
-                "<td>Jackson</td>" +
-                "<td>94</td>" +
-                "</tr>" +
-                "<tr>" +
-                "<td>John</td>" +
-                "<td>Doe</td>" +
-                "<td>80</td>" +
-                "</tr>" +
-                "</table>" +
-                "<ul>" +
-                "  <li>Coffee</li>" +
-                "  <li>Tea</li>" +
-                "  <li>Milk</li>" +
-                "</ul>" +
-                "<table>" +
-                "<tr>" +
-                "<th>Firstname</th>" +
-                "<th>Lastname</th> " +
-                "<th>Age</th>" +
-                "</tr>" +
-                "<tr>" +
-                "<td>Jill</td>" +
-                "<td>Smith</td>" +
-                "<td>50</td>" +
-                "</tr>" +
-                "<tr>" +
-                "<td>Eve</td>" +
-                "<td>Jackson</td>" +
-                "<td>94</td>" +
-                "</tr>" +
-                "<tr>" +
-                "<td>John</td>" +
-                "<td>Doe</td>" +
-                "<td>80</td>" +
-                "</tr>" +
-                "</table>" +
-                "<h1>The line-height Property</h1>" +
-                "<h2>line-height: normal (default):</h2>" +
-                "<div>This is a paragraph with a standard line-height.<br>" +
-                "The standard line height in most browsers is about 110% to 120%.</div>" +
-                "<h2>line-height: 1.6 (recommended):</h2>" +
-                "<div style=\"line-height: 1.6 em\">This is a paragraph with the recommended line-height.<br>" +
-                "The line height is here set to 1.6. This is a unitless value;<br>" +
-                "meaning that the line height will be relative to the font size.</div>" +
-                "<h2>line-height: 80%:</h2>" +
-                "<div style=\"line-height: 80 %;\">This is a paragraph with a smaller line-height.<br>" +
-                "The line height is here set to 80%.</div>" +
-                "<h2>line-height: 50 px:</h2>" +
-                "<div style=\"line-height: 50 px;\">" +
-                "This is a paragraph with a bigger line-height.<br>" +
-                "The line height is here set to 200%.</div>"
+        textView.htmlText = "<span style=\"font-size: 80px; line-height: 80px; font-family: Arial; color: #cccccc\">font-size: 80px line-height: 80px font-family: Arial Color: #cccccc</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 80px; font-family: Arial; color: red\">font-size: 25px line-height: 80px font-family: Arial Color: red</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 24px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 24px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 23px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 23px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 22px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 22px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 21px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 21px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 20px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 20px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 19px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 19px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 18px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 18px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 17px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 17px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 16px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 16px font-family: monospace Color: #fe85a2</span>" +
+                "<br/><br/>" +
+                "<span style=\"font-size: 25px; line-height: 15px; font-family: monospace; color: #fe85a2\">font-size: 25px line-height: 15px font-family: monospace Color: #fe85a2</span>"
     }
 }
